@@ -17,15 +17,15 @@ Install the required Python dependencies using pip.
 
 Run the main backend script (app.py).
 
-Open a browser and navigate to "http://localhost:5000"(local host).
+Open a browser and navigate to "http://localhost:5000" (local host).
 
 Enter the medical values into the form and submit.
 
 View the prediction result in the console.
 
-All data will be saved in the MOngoDB database.
+All data will be saved in the MongoDB database.
 
-Technologies Used: Python for backend development, Flask as the web framework, Scikit-learn for machine learning models, SQLite for database storage, and HTML/CSS for the frontend interface.
+Technologies Used: Python for backend development, Flask as the web framework, Scikit-learn for machine learning models, MongoDB for database storage, and HTML/CSS for the frontend interface.
 
 **Folder Structure:**
 
@@ -37,7 +37,7 @@ static: used optionally for CSS or JavaScript
 
 app.py: the main backend script
 
-database.db: the SQLite database file
+database.db: the MongoDB database file
 
 requirements.txt: lists the Python packages needed
 
